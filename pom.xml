@@ -11,7 +11,7 @@
 	<groupId>projetos</groupId>
 	<artifactId>restapiclientes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>restapiclientes</name>
 	<description>Projeto demo de API REST</description>
 	<properties>
@@ -25,6 +25,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>			
+			<version>2.0.3.RELEASE</version>
 		</dependency>		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -49,6 +50,7 @@
 		<dependency>
 	    	<groupId>org.postgresql</groupId>
 	    	<artifactId>postgresql</artifactId>
+	    	<version>42.2.12</version>
 		</dependency>
 	</dependencies>
 
