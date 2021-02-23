@@ -18,12 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableTransactionManagement
 @RestController
 @EnableAutoConfiguration
-public class RestapiclientesApplication extends SpringBootServletInitializer{
-	
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(RestapiclientesApplication.class);
-	}
+public class RestapiclientesApplication{
 
 	public static void main(String[] args) {
 		SpringApplication.run(RestapiclientesApplication.class, args);
