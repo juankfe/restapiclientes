@@ -34,3 +34,7 @@ Esses erros customizados são apresentados em diferentes operações da API.
 Por exemplo, quando registro não é encontrado (ClienteAPINotFoundException), erro no request (ClienteAPIBadRequestException), outros erros (ClienteAPIException).
 A classe handler especifica o comportamento de cada uma desses exceções e mais algumas.
 
+Nota:
+Fiquei em dúvida sobre o que era esperado em relação à idade neste requisito:
+"É necessário também que cada elemento retornado pela api de clientes informe a idade;"
+Adicionei o atributo idade na classe Cliente para satisfazer esse requisito. Se não for isso e precisar de alguma alteração é só avisar.
