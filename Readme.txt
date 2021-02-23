@@ -6,7 +6,6 @@ Código disponível em:
 https://github.com/juankfe/restapiclientes
 
 A aplicação foi hospedada no Heroku, onde encontra-se disponível para acesso.
-http://jk-restapiclientes.herokuapp.com/clientes
 
 Documentação para uso da API:
 
