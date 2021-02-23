@@ -19,7 +19,7 @@ import org.springframework.web.context.WebApplicationContext;
 @SpringBootTest
 public class ClienteControllerIntegrationTests {
 	
-	/*
+	
 	@Autowired
 	public WebApplicationContext context;
 	
@@ -117,6 +117,6 @@ public class ClienteControllerIntegrationTests {
 	
 		this.mvc.perform(get(url)).andExpect(status().isOk());
 	}
-	*/
+	
 
 }
