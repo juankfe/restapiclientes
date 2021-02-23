@@ -1,7 +1,0 @@
-spring.jpa.hibernate.ddl-auto=create
-spring.datasource.url=postgres://karnlllxtjnnbv:8d5d03d0f0d094d4c25e611305a1d04bc8ec314a3d09387398429bafff811293@ec2-3-222-127-167.compute-1.amazonaws.com:5432/d6037uu9m5glqr
-
-spring.jpa.properties.hibernate.show_sql=false
-spring.jpa.properties.hibernate.use_sql_comments=true
-spring.jpa.properties.hibernate.format_sql=false
-spring.jpa.properties.hibernate.type=info
