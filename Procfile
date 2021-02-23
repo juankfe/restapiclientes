@@ -1,0 +1,1 @@
+web: java -Dserver.port=$PORT -Dspring.profiles.active=default -jar target/restapiclientes-0.0.1-SNAPSHOT.jar
